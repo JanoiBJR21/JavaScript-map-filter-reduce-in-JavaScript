@@ -29,25 +29,25 @@ let numbers = [22, 2, 1, 9, 33, 42, 20, 16, 18, 33];
 /// Map() ///
 /////////////
 // เป็นการนำ number ใน array มา * 2
-// let double = numbers.map((curValue, index, array) => {
-//     return curValue * 2;
-// });
-// console.log(double);
+let double = numbers.map((curValue, index, array) => {
+    return curValue * 2;
+});
+console.log(double);
 
 ////////////////
 /// Filter() ///
 ////////////////
 // เป็นการกรองหาค้า number ใน array ที่มีค้า >, <, = ตามจำนวนที่ต้องการ
-// let filterNumbers =  numbers.filter((curValue, index, array) => {
-//     return curValue < 20;
-// });
-// console.log(filterNumbers);
+let filterNumbers =  numbers.filter((curValue, index, array) => {
+    return curValue < 20;
+});
+console.log(filterNumbers);
 
 // เป็นการกรองหาค้า country ใน array ที่มี country =  "india" ตามที่ต้องการ
-// let filterDatas =  datas.filter((curValue, index, array) => {
-//     return curValue.country === "india";
-// });
-// console.log(filterDatas);
+let filterDatas =  datas.filter((curValue, index, array) => {
+    return curValue.country === "india";
+});
+console.log(filterDatas);
 
 ////////////////
 /// Reduce() ///
