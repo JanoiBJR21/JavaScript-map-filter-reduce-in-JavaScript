@@ -53,14 +53,14 @@ console.log(filterDatas);
 /// Reduce() ///
 ////////////////
 // เป็นการนำค้าเริ่มต้นที่ถูกกำหนด เช่น 4 มา + กับ number ที่อยู่ใน array [22, 2, 1, 9, 33, 42, 20, 16, 18, 33] 
-// ผลที่ได้ คือ 4+196 = 200
+// ผลที่ได้ คือ 4+196 = 300
 let total = numbers.reduce((accumulator, curValue, index, array) => {
     return accumulator + curValue;
-},4);
+},104);
 console.log(total);
 
 // for loop
-let add = 4;
+let add = 104;
 for(let i = 0; i < numbers.length; i++) {
     add = add + numbers[i];
 };
